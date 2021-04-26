@@ -21,11 +21,11 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private var restTimer: CountDownTimer? = null
     private var restProgress = 0
-    private var restTimerDuration: Long = 1 // Good for testing
+    private var restTimerDuration: Long = 10 // Good for testing
 
     private var exerciseTimer: CountDownTimer? = null
     private var exerciseProgress = 0 // Variable for exercise timer progress. As initial the exercise progress is set to 0. As we are about to start.
-    private var exerciseTimerDuration: Long = 1 // Good for testing
+    private var exerciseTimerDuration: Long = 30 // Good for testing
 
     private var exerciseList: ArrayList<ExerciseModel>? = null
     private var currentExercisePosition = -1  // Current Position of Exercise.
